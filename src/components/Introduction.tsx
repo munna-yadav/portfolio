@@ -7,7 +7,7 @@ export default function Introduction() {
     <section className="grid md:grid-cols-2 gap-8 items-center ">
       <div className="flex flex-col items-center gap-6 bg-muted dark:bg-zinc-750 ">
         <Avatar className="w-64 h-64">
-          <AvatarImage src="public/profile.jpg" alt="Profile" className="object-cover w-full h-full"/>
+          <AvatarImage src="profile.jpg" alt="Profile" className="object-cover w-full h-full"/>
           <AvatarFallback>MY</AvatarFallback>
         </Avatar>
         <div className="flex gap-3">
