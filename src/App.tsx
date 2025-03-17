@@ -1,0 +1,25 @@
+import Introduction from "@/components/Introduction"
+import Education from "@/components/Education"
+import Skills from "@/components/Skills"
+import Projects from "@/components/Projects"
+import About from "@/components/About"
+import ThemeToggle  from "@/components/ThemeToggle"
+
+function App() {
+  return (
+    <div >
+    <main className="min-h-screen py-20 bg-white text-black dark:bg-zinc-900 dark:text-white flex items-center justify-center flex-col">
+      <div className="max-w-4xl mx-auto space-y-10">
+        <Introduction/>
+        <About />
+        <Education />
+        <Skills />
+        <Projects />
+        <ThemeToggle/>
+      </div>
+    </main>
+  </div>
+  )
+}
+
+export default App
