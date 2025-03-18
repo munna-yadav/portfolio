@@ -5,11 +5,11 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
     {
-        title: "E-commerce Platform",
-        description: "A full-stack e-commerce solution with real-time inventory management",
-        technologies: ["React", "Node.js", "PostgreSQL"],
-        demo: "https://ecommerce-demo.example.com",
-        github: "https://github.com/username/ecommerce"
+        title: "Blogger",
+        description: "This is a simple blog website made with Django. Users can sign up, write blogs with images, and read what others post. Each blog shows the author, date, and how long it takes to read. The design is clean and easy to use, making it great for sharing thoughts online.",
+        technologies: ["Python", "Django", "Sqlite3"],
+        demo: "https://devmunna.pythonanywhere.com",
+        github: "https://github.com/munna-yadav/blogger"
     },
     {
         title: "Task Management App",
