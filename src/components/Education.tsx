@@ -6,7 +6,7 @@ const education = [
     degree: "B.Tech",
     school: "SET, Jain University",
     location: "Bengaluru, India",
-    year: "2018–2022",
+    year: "2022-2026",
     CGPA: "8.7",
     description: "Specialized in Cloud Computing and Mobile Application Development",
   },
