@@ -1,6 +1,8 @@
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Github, Mail, Linkedin, Instagram, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Assets from "../components/Assets";
+import link, { Link } from 'react-router-dom'
 
 export default function Introduction() {
   return (
@@ -36,9 +38,9 @@ export default function Introduction() {
             </a>
           </Button>
           <Button size="icon" variant='ghost' asChild className="rounded-md border border-muted">
-            <a href="#" target="_blank">
-                <FileText className="h-5 w-5" />
-            </a>
+            <Link to="assets">
+              <FileText className="h-5 w-5" />
+            </Link>
           </Button>
         </div>
       </div>
