@@ -1,8 +1,7 @@
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Github, Mail, Linkedin, Instagram, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Assets from "../components/Assets";
-import link, { Link } from 'react-router-dom'
+import resume from '../assets/resume.pdf'
 
 export default function Introduction() {
   return (
@@ -38,9 +37,9 @@ export default function Introduction() {
             </a>
           </Button>
           <Button size="icon" variant='ghost' asChild className="rounded-md border border-muted">
-            <Link to="assets">
+            <a href={resume} download="resume.pdf">
               <FileText className="h-5 w-5" />
-            </Link>
+              </a>
           </Button>
         </div>
       </div>
