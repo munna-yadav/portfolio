@@ -2,6 +2,7 @@ import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { FolderGit2, Globe, Github } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { useState } from "react";
 
 const projects = [
     {
@@ -37,12 +38,20 @@ export default function Projects() {
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {projects.map((project, index) => (
-                        <Card key={index} className="hover:shadow-lg transition-shadow">
+                        <Card 
+                            key={index} 
+                            className="hover:shadow-lg transition-all group overflow-hidden"
+                        >
                             <CardHeader>
                                 <h3 className="text-xl font-semibold">{project.title}</h3>
                             </CardHeader>
                             <CardContent>
-                                <p className="text-muted-foreground mb-4">{project.description}</p>
+                                <div className="mb-4 h-20 overflow-hidden">
+                                    <p className="text-sm text-muted-foreground line-clamp-3 group-hover:line-clamp-none">
+                                        {project.description}
+                                    </p>
+                                </div>
+                                
                                 <div className="flex flex-wrap gap-2 mb-4">
                                     {project.technologies.map((tech) => (
                                         <Badge key={tech} variant="outline">
@@ -65,7 +74,6 @@ export default function Projects() {
                                     </Button>
                                 </div>
                             </CardContent>
-
                         </Card>
                     ))}
                 </div>
