@@ -12,11 +12,11 @@ const projects = [
         github: "https://github.com/munna-yadav/blogger"
     },
     {
-        title: "Task Management App",
-        description: "A collaborative task management tool with real-time updates",
-        technologies: ["React", "Express", "Socket.io"],
-        demo: "https://taskmanager-demo.example.com",
-        github: "https://github.com/username/taskmanager"
+        title: "Cricket Scorer",
+        description: "A simple on the go cricket scoring app that allows users to keep track of runs, overs, and wickets. It provides a user-friendly interface for easy navigation and quick updates.",
+        technologies: ["React", "supabase",],
+        demo: "https://scorer.devmunna.xyz",
+        github: "https://github.com/munna-yadav/cricket-scorer"
     },
     {
         title: "Weather Dashboard",
