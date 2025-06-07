@@ -2,7 +2,10 @@ import GitHubCalendar from 'react-github-calendar';
 
 export default function GithubCalendar() {
   return (
-    <div className="flex justify-center items-center">
+    <>
+     <h2 className="text-3xl font-bold mb-4">GitHub Contributions</h2>
+
+     <div className="flex justify-center items-center">
       <GitHubCalendar
         username="munna-yadav"
         blockSize={15}
@@ -10,5 +13,7 @@ export default function GithubCalendar() {
         fontSize={16}
       />
     </div>
+    </>
+   
   );
 }
