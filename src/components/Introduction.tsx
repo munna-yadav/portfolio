@@ -1,5 +1,5 @@
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { Github, Mail, Linkedin, Instagram, FileText } from "lucide-react";
+import { Github, Mail, Linkedin, Instagram, FileText,PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import resume from '../assets/resume.pdf'
 
@@ -31,8 +31,8 @@ export default function Introduction() {
             </a>
           </Button>
           <Button size="icon" variant="ghost" asChild className="rounded-md border border-muted">
-            <a href="https://instagram.com/munnayadav378" target="_blank" rel="noopener noreferrer">
-              <Instagram className="h-5 w-5" />
+            <a href="tel://+917667594304" target="_blank" rel="noopener noreferrer">
+              <PhoneCall className="h-5 w-5" />
               <span className="sr-only">Instagram</span>
             </a>
           </Button>
