@@ -4,6 +4,7 @@ import Skills from "@/components/Skills"
 import Projects from "@/components/Projects"
 import About from "@/components/About"
 import Assets from "@/components/Assets"
+import GithubCalendar from "@/components/GithubCalendar"
 import { Routes, Route } from 'react-router-dom'
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           element={
             <>
               <Introduction/>
+              <GithubCalendar />
               <About />
               <Education />
               <Skills />
