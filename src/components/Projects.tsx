@@ -2,7 +2,6 @@ import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { FolderGit2, Globe, Github } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { useState } from "react";
 
 const projects = [
     {
@@ -20,11 +19,12 @@ const projects = [
         github: "https://github.com/munna-yadav/cricket-scorer"
     },
     {
-        title: "Weather Dashboard",
-        description: "A weather forecasting application with interactive maps",
-        technologies: ["React", "OpenWeather API", "Mapbox"],
-        demo: "https://weather-demo.example.com",
-        github: "https://github.com/username/weather"
+        title: "Cloud IDE",
+        description: "A realtime collaborative IDE that allows users to write and run code in various programming languages. It supports multiple users working on the same project simultaneously, making it ideal for team projects and learning.",
+        technologies: ["React","Express.js", "Node.js", "Socket.io"],
+        demo: "https://ide.devmunna.xyz",
+
+        github: "https://github.com/munna-yadav/cloud-ide"
     }
 ];
 
