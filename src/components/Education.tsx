@@ -7,7 +7,7 @@ const education = [
     school: "SET, Jain University",
     location: "Bengaluru, India",
     year: "2022-2026",
-    CGPA: "8.7",
+    CGPA: "8.9",
     description: "Specialized in Cloud Computing and Mobile Application Development",
   },
 ];
