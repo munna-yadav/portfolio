@@ -1,10 +1,9 @@
-import resume from '../assets/resume.pdf'
 
 export default function Assets() {
   return (
     <div className="flex flex-col items-center justify-center">
       <iframe
-        src={resume}
+        src="/assets/resume.pdf"
         title="Resume PDF"
         width="100%"
         height="700px"
