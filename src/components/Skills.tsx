@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Wrench } from "lucide-react";
 
 const skills = {
-  "Frontend": ["React", "TypeScript", "Tailwind CSS", "HTML5", "CSS3"],
+  "Frontend": ["React","Next.js", "TypeScript", "Tailwind CSS"],
   "Backend": ["Spring Boot", "Express", "Django", "REST APIs"],
   "Tools": ["Git", "Docker", "Linux", "AWS",]
 };
