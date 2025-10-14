@@ -1,7 +1,6 @@
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { Github, Mail, Linkedin, Instagram, FileText, PhoneCall } from "lucide-react";
+import { Github, Mail, Linkedin, FileText, PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import resume from '../assets/resume.pdf'
 
 export default function Introduction() {
   return (
